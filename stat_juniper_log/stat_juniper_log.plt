@@ -1,8 +1,6 @@
-basename="stat_juniper"
-data_file=basename.".dat"
-pc_png=basename."_pc.png"
-user_png=basename."_user.png"
-histo_png=basename."_histo.png"
+pc_png=var."/".basename."_pc.png"
+user_png=var."/".basename."_user.png"
+histo_png=var."/".basename."_histo.png"
 start="15/02/2019"
 stop="24/05/2019"
 set title "PC usage VPN du ".start." ".stop
@@ -42,7 +40,7 @@ pause -1
 
 reset
 set terminal png
-set output user_png
+set output histo_png
 set autoscale
 set style data histograms
 set style histogram clustered gap 1
