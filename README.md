@@ -20,7 +20,9 @@ stat which users need GPU for its workstations.
 - To share some log parsing scripts in python and plot with
 gnuplot
 
-# Typical use cases
+
+# Typical use cases
+
 
 ```
 $ cd ./stat_juniper_log
@@ -33,12 +35,12 @@ $ ./stat_plm_usage.sh
 [...code running...]
 ```
 
-# Documentation used to do the scripts
+#Documentation used to do the scripts
 
 - [Gnuplot Documentation](http://www.gnuplot.info/documentation.html)
 - [Python3 Documentation](https://docs.python.org/3/)
 
-# Todo list
+# Todo list
 
 - [] need a usage in bash
 - [] need docstrings
