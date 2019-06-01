@@ -1,0 +1,7 @@
+# input data files
+**/*.csv
+**/*.access
+
+# output data files
+**/*.dat
+**/*.png
