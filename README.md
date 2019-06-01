@@ -35,7 +35,7 @@ $ ./stat_plm_usage.sh
 [...code running...]
 ```
 
-#Documentation used to do the scripts
+# Documentation used to do the scripts
 
 - [Gnuplot Documentation](http://www.gnuplot.info/documentation.html)
 - [Python3 Documentation](https://docs.python.org/3/)
@@ -45,3 +45,5 @@ $ ./stat_plm_usage.sh
 - [] need a usage in bash
 - [] need docstrings
 - [] need tests??
+- [] need to pass more variables to gnuplot or ==>
+- [] leave gnuplot to matplotlib? [Matplotlib documentation](https://matplotlib.org/3.1.0/gallery/index.html)
